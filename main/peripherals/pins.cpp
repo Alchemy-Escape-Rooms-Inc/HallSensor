@@ -64,7 +64,9 @@ namespace Pins
     void init()
     {
         // Init pins here
-        //initPin(pin, mode);
+        // initPin(GPIO_NUM_35, GPIO_MODE_OUTPUT);       // Set GPIO35 to output, default low
+        // initPin(GPIO_NUM_36, GPIO_MODE_OUTPUT, true); // Set GPIO36 to output, default high
+        // initPin(GPIO_NUM_37, GPIO_MODE_INPUT);        // Set GPIO37 to input
     }
 
     void setOutput(gpio_num_t pin, bool high)

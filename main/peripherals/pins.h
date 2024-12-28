@@ -58,6 +58,7 @@ extern const gpio_num_t GPIO_48;
 namespace Pins
 {
     void init();
+    void initPin(gpio_num_t pin, gpio_mode_t mode, bool defaultHigh);
 
     void setOutput(gpio_num_t pin, bool high);
     bool getOutput(gpio_num_t pin);
