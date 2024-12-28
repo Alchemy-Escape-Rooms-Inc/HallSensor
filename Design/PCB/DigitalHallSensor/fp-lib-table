@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Allegro")(type "KiCad")(uri "${KIPRJMOD}/Allegro.pretty")(options "")(descr ""))
+)
